@@ -4,3 +4,17 @@ console.log(age, typeof age);
 const roll = "25";
 console.log("sum of roll and age is", age + roll, "because the type of age is", typeof age, 'And the type of roll is', typeof roll);
 const country = "bangladesh";
+
+function sum(a, b) {
+ const sum = a + b;
+ console.log (sum)
+}
+
+sum(10, 20);
+
+function substraction(a, b){
+    const sub = a - b;
+    console.log(sub);
+}
+
+substraction(20, 10);
