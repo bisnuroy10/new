@@ -18,3 +18,31 @@ function substraction(a, b){
 }
 
 substraction(20, 10);
+
+const multiple = (a, b) =>{
+    const multiple = a * b ;
+    console.log(multiple);
+}
+
+multiple(30, 30);
+
+const division = (a, b) =>{
+    const division = a / b;
+    console.log(division);
+}
+
+division(5346, 50);
+
+const exponenciation = (a, b)=>{
+    const expon = a ** b;
+    console.log(expon)
+}
+
+exponenciation(23, 2);
+
+const modulas = (a, b)=>{
+    const modulas = a % b;
+    console.log(modulas)
+}
+
+modulas(5333, 20);
